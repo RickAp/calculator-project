@@ -1,0 +1,176 @@
+//Theme 2
+body.dos{
+    background: $mainBackground2;
+    .screen{
+        background-color: $screenBackground2;
+        color: $text2;
+    }
+
+    .toggle__bar{
+        color: $text2;
+    }
+
+    .toggle{
+        &__background{
+            background: $toggleBackground-keypadBackground2;
+        }
+
+        &__switch{
+            background-color: $keybackgroundOrange2;
+        }
+    }
+
+    .container{
+        background-color: $toggleBackground-keypadBackground2;
+
+        &__del{
+            background-color: $keyBackgroundBlue2;
+            box-shadow: 0px 3px $keyShadowBlue2;
+        }
+
+        &__reset{
+            background-color: $keyBackgroundBlue2;
+            box-shadow: 0px 3px $keyShadowBlue2;
+        }
+
+        &__equal{
+            background-color: $keybackgroundOrange2;
+            box-shadow: 0px 3px $keyShadowRed2;
+        }
+    }
+}
+
+//Theme 3
+body.tres{
+    background: $mainBackground3;
+
+    .screen{
+        background-color: $screenBackground3;
+        color: $text3;
+    }
+
+    .toggle__bar{
+        color: $text3;
+    }
+
+    .toggle{
+        &__background{
+            background: $toggleBackground-keypadBackground3;
+        }
+
+        &__switch{
+            background-color: $keybackgroundOrange3;
+        }
+    }
+
+    .container{
+        background-color: $toggleBackground-keypadBackground3;
+
+        &__del{
+            background-color: $keyBackgroundBlue3;
+            box-shadow: 0px 3px $keyShadowBlue3;
+        }
+
+        &__reset{
+            background-color: $keyBackgroundBlue3;
+            box-shadow: 0px 3px $keyShadowBlue3;
+        }
+
+        &__equal{
+            background-color: $keybackgroundOrange3;
+            box-shadow: 0px 3px $keyShadowRed3;
+            color: black;
+        }
+        
+        &__1{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__2{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__3{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__4{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__5{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__6{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__7{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__8{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__9{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__0{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__dot{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__-{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__suma{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__dividir{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+
+        &__x{
+            background-color: $keyBackgroundWhite3;
+            color: $text3;
+            box-shadow: 0px 3px $keyShadowWhite3; 
+        }
+        
+    }
+}

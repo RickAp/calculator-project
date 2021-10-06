@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dist/style.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  
+</head>
+<body class="uno">
+
+  <div class="toggle__bar">
+    <div class="toggle__bar__title">calc</div>
+
+    <fieldset class="toggle__bar__container toggle" aria-label="theme toggle" role="radiogroup">
+      
+      <div class="toggle__wrapper">
+        <input type="radio" name="theme" id="uno" checked>
+        <input type="radio" name="theme" id="dos">
+        <input type="radio" name="theme" id="tres">
+        <span aria-hidden="true" class="toggle__background"></span>
+        <span aria-hidden="true" class="toggle__switch"></span>
+      </div>
+      <label for="1">1</label>
+      <label for="2">2</label>
+      <label for="3">3</label>
+      
+    </fieldset>
+
+  </div>
+
+
+  <div id="result" class="screen"></div>
+
+  <div class="container">
+    <button name="numero" class="container__7">7</button>
+    <button name="numero" class="container__8">8</button>
+    <button name="numero" class="container__9">9</button>
+    <button name="borrar" class="container__del">DEL</button>
+    <button name="numero" class="container__4">4</button>
+    <button name="numero" class="container__5">5</button>
+    <button name="numero" class="container__6">6</button>
+    <button name="operacion" class="container__suma">+</button>
+    <button name="numero" class="container__1">1</button>
+    <button name="numero" class="container__2">2</button>
+    <button name="numero" class="container__3">3</button>
+    <button name="operacion" class="container__-">-</button>
+    <button name="numero" class="container__dot">.</button>
+    <button name="numero" class="container__0">0</button>
+    <button name="operacion" class="container__dividir">/</button>
+    <button name="operacion" class="container__x">x</button>
+    <button name="reiniciar" class="container__reset">RESET</button>
+    <button id="igual" class="container__equal">=</button>
+  </div>
+
+
+
+  
+  <script src="/app/js/script.js"></script>
+</body>
+</html>

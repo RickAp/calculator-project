@@ -1,0 +1,240 @@
+.container{
+    width: 29.375rem;
+    height: 21.875rem;
+    margin: 0 auto;
+    border-radius: 0.4375rem;
+    background-color: $toggleBackground-keypadBackground;
+    display: grid;
+    grid-template-columns:  repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    align-items: center;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 1.1875rem;
+    padding-right: 1.1875rem;
+    
+    
+
+    &__7{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__8{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+        
+    }
+
+    &__9{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__del{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        background-color: $keyBackgroundBlue;
+        color: $textWhite;
+        box-shadow: 0px 3px $keyShadowBlue;
+        cursor: pointer;
+    }
+
+    &__4{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__5{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__6{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__suma{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__1{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__2{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__3{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__-{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__dot{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__0{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__dividir{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__x{
+        width: 4.375rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        cursor: pointer;
+        background-color: $keyBackgroundWhite;
+        color: $toggleBackground-keypadBackground;
+        box-shadow: 0px 3px $keyShadowWhite;
+    }
+
+    &__reset{
+        width: 11.25rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        grid-column: span 2;
+        background-color: $keyBackgroundBlue;
+        color: $textWhite;
+        cursor: pointer;
+        box-shadow: 0px 3px $keyShadowBlue;
+    }
+
+    &__equal{
+        width: 11.25rem;
+        height: 3.125rem;
+        border-radius: 0.4375rem;
+        border: none;
+        margin: 0 auto;
+        grid-column: span 2;
+        background-color: $keybackgroundOrange;
+        color: $textWhite;
+        cursor:pointer;
+        box-shadow: 0px 3px $keyShadowRed;
+    }
+
+    
+
+}
+

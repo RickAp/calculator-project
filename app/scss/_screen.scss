@@ -1,0 +1,17 @@
+.screen{
+    background-color: $screenBackground;
+    width: 29.375rem;
+    height: 6.875rem;
+    margin: 0 auto;
+    border-radius: 0.4375rem;
+    margin-bottom: 1.25rem;
+    color: $textWhite;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    padding: 2.1875rem;
+    overflow: hidden;
+
+}
+
+
